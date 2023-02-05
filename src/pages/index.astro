@@ -1,0 +1,19 @@
+---
+const equipment = ['3D Printer', 'Laser Cutter', 'CNC Machine']
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Skylab Workshop</title>
+	</head>
+	<body>
+		<h1>Our Equipment</h1>
+		<ul>
+			{equipment.map(machine => <li>{machine}</li>)}
+		</ul>
+	</body>
+</html>
