@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ['kentcdodds', 'plugin:astro/recommended'],
+  extends: ['kentcdodds', 'plugin:astro/recommended', 'prettier'],
   overrides: [
     {
       files: ['*.astro'],
@@ -12,4 +12,4 @@ module.exports = {
       rules: {},
     },
   ],
-};
+}
