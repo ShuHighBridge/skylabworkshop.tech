@@ -1,0 +1,51 @@
+---
+const pages = [
+  {
+    title: 'Home',
+    slug: '/',
+  },
+  {
+    title: 'Get Involved',
+    slug: '/get-involved',
+  },
+  {
+    title: 'Events',
+    slug: '/events',
+  },
+  {
+    title: 'About',
+    slug: '/about',
+  },
+]
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Skylab Workshop</title>
+  </head>
+  <body class="max-w-3xl mx-auto mt-10 px-6">
+    <nav class="mb-8">
+      <a href="/">
+        <h1 class="text-5xl text-red-500 uppercase cursor-pointer">
+          Skylab Workshop
+        </h1>
+      </a>
+      <ul class="inline-flex gap-x-4 mt-4">
+        {
+          pages.map(page => (
+            <li class="text-gray-900 font-medium hover:underline">
+              <a href={page.slug}>{page.title}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+    <main class="prose">
+      <slot />
+    </main>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+---
+title: 'About Skylab Workshop'
+layout: '../layouts/RootLayout.astro'
+---
+
+# About Skylab Workshop
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam voluptatibus hic
+aperiam voluptatem repellat a commodi, inventore quae ratione fugiat aliquid
+minus sed ipsam maiores earum nesciunt molestiae odit nemo illum temporibus?
+Dolore, animi? Exercitationem, voluptatum praesentium consequuntur, natus,
+asperiores in eaque accusamus vero est consequatur tempore dolorum incidunt
+minima eligendi culpa quidem repudiandae dolor! Eos, quibusdam necessitatibus ad
+quia optio quasi facilis eaque illum culpa laboriosam voluptate error tenetur
+iste ut suscipit, obcaecati, adipisci velit explicabo tempora. Eligendi sequi
+quisquam quaerat aut aspernatur provident suscipit illum, maxime maiores,
+quibusdam earum assumenda corporis nobis recusandae quia atque. Fuga,
+consequuntur placeat?

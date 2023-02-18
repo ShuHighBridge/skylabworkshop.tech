@@ -1,20 +1,20 @@
 ---
-const equipment = ['3D Printer', 'Laser Cutter', 'CNC Machine']
+import RootLayout from '../layouts/RootLayout.astro'
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Skylab Workshop</title>
-	</head>
-	<body>
-		<h1 class="text-lg text-red-600 font-bold">Hello Skylab!!</h1>
-		<h1>Our Equipment</h1>
-		<ul>
-			{equipment.map(machine => <li>{machine}</li>)}
-		</ul>
-	</body>
-</html>
+<RootLayout>
+  <h1>Invent Your Future!</h1>
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam voluptatibus
+    hic aperiam voluptatem repellat a commodi, inventore quae ratione fugiat
+    aliquid minus sed ipsam maiores earum nesciunt molestiae odit nemo illum
+    temporibus? Dolore, animi? Exercitationem, voluptatum praesentium
+    consequuntur, natus, asperiores in eaque accusamus vero est consequatur
+    tempore dolorum incidunt minima eligendi culpa quidem repudiandae dolor!
+    Eos, quibusdam necessitatibus ad quia optio quasi facilis eaque illum culpa
+    laboriosam voluptate error tenetur iste ut suscipit, obcaecati, adipisci
+    velit explicabo tempora. Eligendi sequi quisquam quaerat aut aspernatur
+    provident suscipit illum, maxime maiores, quibusdam earum assumenda corporis
+    nobis recusandae quia atque. Fuga, consequuntur placeat?
+  </p>
+</RootLayout>
